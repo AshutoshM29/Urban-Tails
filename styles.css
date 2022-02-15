@@ -14,12 +14,11 @@
   :root { 
     --white: white;
   
-    --pink-dominant: #fec5bb;
-    --pink-domi: wheat;
-    --pink-mild: #fcd5ce;
+    --pink-dominant: #D88090;
+    --pink-mild: #F5A6BB;
     --pink-light: #fae1dd;
     --pink-lighter: #f8edeb;
-    --pink-nav: #FECFCD;
+    --pink-nav: #F5A6BB;
   
     --gray-dominant: #343a40;
     --gray-mild: #6c757d;
@@ -117,7 +116,7 @@ html {
     flex-direction: column;
     gap: 1rem;
     background: var(--pink-nav);
-    color: var(--gray-dominant);
+    color: var(--white);
     box-shadow: 0 0 1rem 0.2rem var(--gray-lighter);
   }
 

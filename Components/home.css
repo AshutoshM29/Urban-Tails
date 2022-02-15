@@ -1,0 +1,291 @@
+body {
+    height: 312vw;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+  min-height: 12vh;
+  width: 100%;
+  align-items: center;
+  background-image: linear-gradient(to right, #D88090 ,#F5A6BB,#F7ADBE, #F5A6BB, #EF95AE);
+  font-weight: 600;
+  color: var(--white);
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -2rem;
+}
+
+.list-inline-item {
+  margin-right: 2rem;
+  font-size: 1.8rem;
+  padding-right: 2rem;
+}
+
+.list-inline-icons {
+  margin-right: 2rem;
+  font-size: 1.8rem;
+  padding-right: 0rem;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-section-items {
+  padding: 0 2rem;
+}
+
+.nav-bar-links {
+  display: flex;
+}
+
+.nav-icons {
+  display: flex;
+  justify-self: right;
+}
+
+.nav-logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.nav-icon-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.nav-icon-link .nav-icon-text {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: var(--white)
+}
+
+.nav-icon-link .nav-icon {
+  color: var(--white);
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+
+.search-bar {
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-bar {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--pink-dominant);
+  border-radius: 5rem;
+  justify-self: right;
+}
+
+.search-bar-input {
+  width: calc(100% - 2rem);
+  border: none;
+  background-color: transparent;
+  padding: 1rem 1rem;
+  border-radius: 5rem;
+}
+
+.search-bar-btn {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.nav-icon:hover {
+  color: var(--pink-mild);
+  font-size: 2.2rem;
+}
+
+.nav-icon-text {
+  color: var(--gary-light);
+}
+
+.section-part-head {
+  margin: 3rem;
+  color: var(--gray-mild);
+}
+
+/* Section */
+
+.section-category {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-category {
+  width: 38rem;
+  height: 40rem;
+  margin: 0rem 1.5rem 8rem 2.5rem;
+}
+
+.desc-category {
+  position: absolute;
+  margin-top: -8rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+  color: var(--gray-mild);
+}
+
+/* About */
+
+.section-about {
+  display: flex;
+}
+
+.img-about {
+  width: 60rem;
+  height: 50rem;
+  border-radius: 0 5rem 5rem 0;
+  margin: 2rem;
+}
+
+.desc-about {
+  color: var(--gray-mild);
+  font-size: 1.8rem;
+}
+
+.head-about {
+  color: var(--pink-dominant);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+/* Brand Value */
+
+.section-value {
+display: flex;
+margin: 2rem 8rem 8rem;
+}
+
+.img-value {
+  width: 10rem;
+  margin: 0 6rem;
+}
+
+.desc-value {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-left: 7rem;
+  font-size: 2rem;
+  color: var(--gray-mild);
+}
+
+.brands {
+  margin: 10rem auto;
+  margin-bottom: -2rem;
+}
+
+.section-brands {
+  display: flex;
+}
+
+.img-brand {
+  width: 20rem;
+  margin: 0 2rem;
+}
+
+.img-brand img {
+  width: 100%;
+  margin-top: -8rem;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.img-brand img:hover {
+  filter: grayscale(0);
+}
+
+.purina {
+  position: relative;
+  margin-top: 2.5rem;
+}
+
+.kong {
+  position: relative;
+  margin-top: 3.5rem;
+}
+
+.bayer {
+  position: relative;
+  width: 14rem;
+  margin-top: 2.5rem;
+}
+
+.ruffwear {
+  position: relative;
+  width: 30rem;
+  margin-top: 2.5rem;
+}
+
+.contact {
+  background-color: var(--white);
+  margin: 4rem 0 0 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  color: var(--gray-dominant);
+}
+
+.form {
+  background: var(--white);
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 1rem var(--gray-mild);
+  max-width: 35rem;
+  padding: 1rem;
+}
+
+.input {
+  background: var(--gray-lighter);
+  border: thin solid var(--pink-dominant);
+  border-radius: 1rem;
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 96%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.footer-section {
+  display: flex;
+  width: 100vw;
+  margin: 4rem 0 2rem;
+  justify-content: space-around;
+}
+
+.btn {
+  background: none;
+  border: solid 0.2rem var(--gray-lighter);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  }
+
+  .btn-error-solid {
+    background: var(--pink-dominant);
+    color: var(--white);
+  }
+  
+  .btn-error-solid:hover {
+    background: var(--white);
+    color: var(--pink-dominant);
+  }

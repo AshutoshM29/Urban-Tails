@@ -150,7 +150,7 @@ input:focus {
 
 .section-about {
   display: flex;
-  margin-bottom: 4rem;
+  margin: 4rem 0;
 }
 
 .img-about {

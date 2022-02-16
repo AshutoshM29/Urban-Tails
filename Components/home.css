@@ -132,9 +132,17 @@ input:focus {
 }
 
 .img-category {
-  width: 38rem;
+  width: 40rem;
   height: 40rem;
   padding: 4rem 2rem;
+  border-end-end-radius: 8rem;
+}
+
+.img-category-ese {
+  width: 40rem;
+  height: 30rem;
+  padding: 4rem 2rem;
+  border-end-end-radius: 8rem;
 }
 
 .desc-category {

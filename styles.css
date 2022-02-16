@@ -16,8 +16,8 @@
   
     --pink-dominant: #D88090;
     --pink-mild: #F5A6BB;
-    --pink-light: #fae1dd;
-    --pink-lighter: #f8edeb;
+    --pink-light: #fdc5f5;
+    --pink-lighter: #ffe0e9;
     --pink-nav: #F5A6BB;
   
     --gray-dominant: #343a40;
@@ -111,7 +111,7 @@ html {
   }
   
   footer {
-    min-width: 100vw;
+    width: 100vw;
     padding: 1rem;
     flex-direction: column;
     gap: 1rem;
@@ -261,7 +261,7 @@ iframe {
   justify-content: flex-start;
 }
 
-@media screen and ( max-width:600px){
+@media screen and ( max-width:60em){
   html{
     font-size: 50%;
   }

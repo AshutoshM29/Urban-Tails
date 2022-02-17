@@ -25,6 +25,20 @@
     --gray-light: #a5a58d;
     --gray-lighter: #ced4da;
   
+    --green-dominant: #007200;
+    --green-mild: #38b000;
+    --green-light: #70e000;
+    --green-lighter: #9ef01a;
+  
+    --orange-dominant: #F0590E;
+    --orange-mild: #ff9500;
+    --orange-light: #ffb700;
+    --orange-lighter: #ffb600;
+  
+    --red-dominant: #d30000;
+    --red-mild: #FA483E;
+    --red-light: #fab2b2;
+    --red-lighter: #fbc4ab;
   }
   
   a {
@@ -118,6 +132,7 @@ html {
     background: var(--pink-nav);
     color: var(--white);
     box-shadow: 0 0 1rem 0.2rem var(--gray-lighter);
+    z-index: 99999;
   }
 
   .fab:hover {

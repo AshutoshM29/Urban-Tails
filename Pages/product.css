@@ -18,12 +18,11 @@ hr {
 }
 
 .section-filter {
-    max-width: 25vw;
+    width: 30vw;
     border-right: 0.2rem solid var(--pink-nav);
     position: sticky;
     top: 6.5vh;
     left: 0;
-    overflow: auto;
     height: 100%;
     padding: 1rem;
     overflow: hidden;
@@ -32,7 +31,6 @@ hr {
 .section-filter div {
     display: flex;
     align-items: center;
-    width: 25vw;
 }
 
 .header-filter {
@@ -151,7 +149,7 @@ input:checked+.slider:before {
 .card {
     margin: 3rem 1rem;
     border-radius: 0.25rem;
-    box-shadow: 0.1rem 0.1rem 0.5rem var(--gray-mild)
+    box-shadow: 0.1rem 0.1rem 0.5rem var(--gray-lighter)
 }
 
 .card-vertical-img {
@@ -164,9 +162,18 @@ input:checked+.slider:before {
 }
 
 .btn-primary-solid:hover {
-    background: var(--white);
-    color: var(--pink-mild);
+    background: var(--pink-dominant);
 }
+
+.btn-primary-outline {
+    color: var(--gray-mild);
+}
+
+.btn-primary-outline:hover {
+    color: var(--white);
+    background-color: var(--pink-mild);
+}
+
 
 .btn-wishlist {
     display: flex;

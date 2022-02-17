@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Tails</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://uiclean.netlify.app/Components/global.css" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+
+<body>
+
+    <nav class="nav-header nav-bar">
+        <div class="nav-section">
+            <div class="nav-section-items">
+                <a href="/index.html">
+                    <img class="nav-logo" loading="eager" src="/Assets/paw.png" alt="Logo" />
+                </a>
+            </div>
+            <ul class="nav-bar-links nav-section-items">
+                <li class="list-inline-item">
+                    <a class="link" href="/dog">Dog</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="link" href="/cat">Cat</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="link" href="/grooming">Grooming</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="link" href="/small-animal">Small Pets</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="link" href="/brands">Brands</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-section">
+            <label class="search-bar">
+                <span class="search-bar-btn" type="submit">
+                    <i class="fa fa-search"></i>
+                </span>
+                <input class="search-bar-input" type="text" placeholder="Type to search" name="search">
+            </label>
+            <ul class="nav-icons">
+                <li class="list-inline-icons">
+                    <a class="nav-icon-link">
+                        <span class="nav-icon">
+                            <i class="fas fa-user"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Profile
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-icons">
+                    <a class="nav-icon-link">
+                        <span class="nav-icon">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Wishlist
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-icons">
+                    <a class="nav-icon-link">
+                        <span class="nav-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Cart
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+
+        <aside class="section-filter">
+            <div class="flex">
+                <h3 class="header-filter">Filter</h3>
+                <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <br>
+            <h4 class="sub-header-filter">Price</h4>
+            <input class="styled-slider" type="range" />
+            <small class="price-range">
+                <span>₹99</span>
+                <span>₹499</span>
+                <span>₹999</span>
+            </small>
+            <br>
+            <hr>
+            <h4 class="sub-header-filter">Brand</h4>
+            <div class="checkbox">
+                <input class="input-checkbox" type="checkbox" id="category1"><label class="input-desc"
+                    for="category1">Petmate</label>
+            </div>
+            <div class="checkbox">
+                <input class="input-checkbox" type="checkbox" id="category2"><label class="input-desc"
+                    for="category2">Purina</label>
+            </div>
+            <div class="checkbox">
+                <input class="input-checkbox" type="checkbox" id="category3"><label class="input-desc"
+                    for="category3">Kong</label>
+            </div>
+            <div class="checkbox">
+                <input class="input-checkbox" type="checkbox" id="category4"><label class="input-desc"
+                    for="category4">Bayer</label>
+            </div>
+            <div class="checkbox">
+                <input class="input-checkbox" type="checkbox" id="category5"><label class="input-desc"
+                    for="category5">Ruffwear</label>
+            </div>
+            <br>
+            <hr>
+            <h4 class="sub-header-filter">Ratings</h4>
+            <div class="radio">
+                <input type="radio" id="radio1" name="rating-filter"><label class="input-desc" for="radio1">4 Stars &
+                    above</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio2" name="rating-filter"><label class="input-desc" for="radio2">3 Stars &
+                    above</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio3" name="rating-filter"><label class="input-desc" for="radio3">2 Stars &
+                    above</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio4" name="rating-filter"><label class="input-desc" for="radio4">1 Stars &
+                    above</label>
+            </div>
+            <br>
+            <hr>
+            <h4 class="sub-header-filter">Life Stages</h4>
+            <div class="radio">
+                <input type="radio" id="radio5" name="sort-by-price"><label class="input-desc"
+                    for="radio5">Puppy</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio6" name="sort-by-price"><label class="input-desc"
+                    for="radio6">Adult</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio6" name="sort-by-price"><label class="input-desc"
+                    for="radio7">Senior</label>
+            </div>
+        </aside>
+
+        <div class="section-card">
+            <div class="container-card-head">
+                <a class="path" href="/index.html">Home ></a>
+                <a class="path" href="/Pages/Dog-Products/treat.html">Dog Treats</a>
+                <h2>Dog Treats</h2>
+            </div>
+            <div class="container-card">
+                <div class="card card-vertical">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <img class="card-vertical-img" src="/Assets/Dogs/Products/bone-chew.webp" alt="t-shirt jpg" />
+                    </div>
+                    <h1 class="card-head">Dogsee Chew</h1>
+                    <p class="card-text">
+                        The perfect long-lasting dog chew sticks for puppies and small breed fluffies!
+                    </p>
+                    <div class="price-section">
+                        <span class="price">₹450</span>
+                        <span class="initial-price">₹2500</span>
+                        <span class="discount">(82%)</span>
+                    </div>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <img class="card-vertical-img" src="/Assets/Dogs/Products/yummy.webp" alt="t-shirt jpg" />
+                    </div>
+                    <h1 class="card-head">Apple & Banana Biscuits</h1>
+                    <p class="card-text">Made with real Apples & Bananas, free of Gluten & Artificial Flavours. Suitable
+                        for all Dogs
+                    </p>
+                    <div class="price-section">
+                        <span class="price">₹450</span>
+                        <span class="initial-price">₹2500</span>
+                        <span class="discount">(82%)</span>
+                    </div>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <img class="card-vertical-img" src="/Assets/Dogs/Products/duo-stick.webp" alt="t-shirt jpg" />
+                    </div>
+                    <h1 class="card-head">T-Shirt Combo</h1>
+                    <p class="card-text">
+                        T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+                    </p>
+                    <div class="price-section">
+                        <span class="price">₹450</span>
+                        <span class="initial-price">₹2500</span>
+                        <span class="discount">(82%)</span>
+                    </div>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <img class="card-vertical-img" src="/Assets/Dogs/Products/mini.webp" alt="t-shirt jpg" />
+                    </div>
+                    <h1 class="card-head">T-Shirt Combo</h1>
+                    <p class="card-text">
+                        T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+                    </p>
+                    <div class="price-section">
+                        <span class="price">₹450</span>
+                        <span class="initial-price">₹2500</span>
+                        <span class="discount">(82%)</span>
+                    </div>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <img class="card-vertical-img" src="/Assets/Dogs/Products/sara.webp" alt="t-shirt jpg" />
+                    </div>
+                    <h1 class="card-head">T-Shirt Combo</h1>
+                    <p class="card-text">
+                        T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+                    </p>
+                    <div class="price-section">
+                        <span class="price">₹450</span>
+                        <span class="initial-price">₹2500</span>
+                        <span class="discount">(82%)</span>
+                    </div>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <img class="card-vertical-img" src="/Assets/Dogs/Products/dentastix.webp" alt="t-shirt jpg" />
+                    </div>
+                    <h1 class="card-head">T-Shirt Combo</h1>
+                    <p class="card-text">
+                        T-shirts for men feature three main neck styles: the round neck, the V-neck and the polo neck.
+                    </p>
+                    <div class="price-section">
+                        <span class="price">₹450</span>
+                        <span class="initial-price">₹2500</span>
+                        <span class="discount">(82%)</span>
+                    </div>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-primary-solid">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="flex-align-center">
+
+        <div class="contact">
+            <p><i class="icons fas fa-phone-alt"></i> +91 0123456789</p>
+            <p><i class="icons fab fa-whatsapp"></i> +91 9876543210</p>
+            <p><i class="icons far fa-envelope"></i> support@urbantails.com</p>
+        </div>
+
+        <div class="footer-section">
+
+            <div class="about"><span>About Us</span>
+                <p>Our Story</p>
+                <p>Blogs</p>
+                <p>Careers</p>
+            </div>
+
+            <div class="about"><span>Support</span>
+                <p>FAQ</p>
+                <p>Contact Us</p>
+                <p>Return & Refund Policy</p>
+                <p>Shipping Information</p>
+                <p>Payment Options</p>
+            </div>
+
+            <div class="about"><span>Keep in touch!</span>
+                <form class="form">
+                    <input class="input" type="email" name="email-id" placeholder="Enter your email address" />
+                    <button class="btn btn-error-solid btn-squared">
+                        <i class="fas fa-door-open"></i> Log In
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <ul class="social-links list-non-bullet">
+            <li class="list-item" ;>
+                <a href="https://github.com/AshutoshM29"> <i class="icons-social fab fa-github"></i></a></li>
+            <li class="list-item">
+                <a href="https://twitter.com/Astomi_29?s=08"> <i class="icons-social fab fa-twitter"></i></a></li>
+            <li class="list-item">
+                <a href="https://www.instagram.com/the.astomi/"> <i class="icons-social fab fa-instagram"></i></a></li>
+            <li class="list-item">
+                <a href="https://www.linkedin.com/mwlite/in/ashutosh-mishra-b50423206"><i
+                        class="icons-social fab fa-linkedin"></i></a></li>
+
+        </ul>
+        <div class="with-love">Made with ❤️ by : Ashutosh</div>
+    </footer>
+</body>
+
+</html>

@@ -21,10 +21,11 @@
     padding: 1rem;
     min-width: fit-content;
     height: fit-content;
+    margin-right: 5rem;
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.6rem 0.2rem var(--gray-lighter);
     position: sticky;
-    top: 5vh;
+    top: 18.5vh;
 }
 
 .bag-details section {

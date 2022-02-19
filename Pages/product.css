@@ -21,7 +21,7 @@ hr {
     width: 30vw;
     border-right: 0.2rem solid var(--pink-nav);
     position: sticky;
-    top: 6.5vh;
+    top: 20vh;
     left: 0;
     height: 100%;
     padding: 1rem;

@@ -111,6 +111,15 @@ html {
     z-index: 99999;
 }
 
+.nav-section {
+  width: 100%;
+}
+
+.nav-icons {
+  width: 120%;
+  margin-right: -26rem;
+}
+
   .section-header {
     margin: 3rem 0;
   }

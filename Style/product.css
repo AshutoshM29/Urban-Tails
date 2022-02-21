@@ -85,17 +85,17 @@ input:checked+.slider:before {
     transform: translateX(1.3rem);
 }
 
-.styled-slider {
+.slider-custom {
     -webkit-appearance: none;
     width: 100%;
     cursor: pointer;
 }
 
-.styled-slider:focus {
+.slider-custom:focus {
     outline: none;
 }
 
-.styled-slider::-webkit-slider-runnable-track {
+.slider-custom::-webkit-slider-runnable-track {
     background: var(--pink-nav);
     height: 0.2rem;
 }
@@ -120,7 +120,7 @@ input:checked+.slider:before {
     padding: 0 1rem;
 }
 
-.styled-slider::-webkit-slider-thumb {
+.slider-custom::-webkit-slider-thumb {
     -webkit-appearance: none;
     background: var(--white);
     width: 1.5rem;
@@ -187,4 +187,8 @@ input:checked+.slider:before {
 
 .btn-wishlist:hover {
     color: var(--red-dominant);
+}
+
+.price-section {
+    margin-top: 0rem;
 }

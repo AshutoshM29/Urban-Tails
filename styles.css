@@ -281,6 +281,11 @@ iframe {
   justify-content: flex-start;
 }
 
+.badge-count .bg-away {
+  position: relative;
+  z-index: 99999999999;
+}
+
 @media screen and (max-width:60em) {
   html {
     font-size: 50%;

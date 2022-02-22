@@ -15,6 +15,7 @@ The website consists of
 
 ## Screens
 ### Homepage
+
 ![Homepage](/Assets/Readme/homepage.mp4)
 
 ### Product Page

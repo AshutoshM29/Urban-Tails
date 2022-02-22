@@ -15,19 +15,20 @@ The website consists of
 
 ## Screens
 ### Homepage
-![Homepage](/Assets/Readme/homepage.webm)
+
+![Homepage](/Assets/Readme/homepage.mp4)
 
 ### Product Page
-![Product Page](/Assets/Readme/product.webm)
+![Product Page](/Assets/Readme/product.mp4)
 
 ### Wishlist
-![Wishlist](/Assets/Readme/wishlist.webm)
+![Wishlist](/Assets/Readme/wishlist.mp4)
 
 ### Bag
-![Bag](/Assets//Readme/bag.webm)
+![Bag](/Assets//Readme/bag.mp4)
 
 ### Sign Up
-![Sign Up](/Assets/Readme/signup.webm)
+![Sign Up](/Assets/Readme/signup.mp4)
 
 ### Log In
 ![Log In](/Assets/Readme/login.JPG)
